@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_element_notification_banners",
+  "info": {
+    "displayName": "notification banner",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "info",
+        "alert",
+        "warning"
+      ],
+      "default": "info"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_element_pricing_plans",
+  "info": {
+    "displayName": "pricing plan",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "integer",
+      "min": 0
+    },
+    "isRecommended": {
+      "type": "boolean"
+    },
+    "features": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.feature"
+    }
+  }
+}

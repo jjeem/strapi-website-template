@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_element_features",
+  "info": {
+    "displayName": "feature",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

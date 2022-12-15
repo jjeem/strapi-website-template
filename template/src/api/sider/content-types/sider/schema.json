@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "siders",
+  "info": {
+    "singularName": "sider",
+    "pluralName": "siders",
+    "displayName": "Sider"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page",
+      "mappedBy": "sider"
+    }
+  }
+}

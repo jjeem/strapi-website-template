@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_notices",
+  "info": {
+    "displayName": "Notice",
+    "icon": "hand-paper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "plain",
+        "info",
+        "alert",
+        "warning"
+      ],
+      "required": true,
+      "default": "info"
+    }
+  }
+}

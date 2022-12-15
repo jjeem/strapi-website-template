@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "money-bill-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.pricing-plan"
+    }
+  }
+}

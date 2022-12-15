@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_stories",
+  "info": {
+    "displayName": "story",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "authorName": {
+      "type": "string"
+    }
+  }
+}

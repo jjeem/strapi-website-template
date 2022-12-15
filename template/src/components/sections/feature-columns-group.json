@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_feature_columns_groups",
+  "info": {
+    "displayName": "feature columns group",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.feature-column"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "smallText": {
+      "type": "string"
+    },
+    "columns": {
+      "displayName": "column",
+      "type": "component",
+      "repeatable": true,
+      "component": "link.column"
+    }
+  }
+}

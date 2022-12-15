@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_link_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "default"
+      ],
+      "required": true,
+      "default": "default"
+    }
+  }
+}
