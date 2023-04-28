@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tab",
     "pluralName": "tabs",
-    "displayName": "Tab"
+    "displayName": "Tab",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,17 +14,6 @@
   "attributes": {
     "Name": {
       "type": "string"
-    },
-    "subLinks": {
-      "type": "component",
-      "repeatable": true,
-      "component": "link.sub-links"
-    },
-    "footer": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.footer",
-      "required": true
     },
     "slug": {
       "type": "string"

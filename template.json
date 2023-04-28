@@ -2,8 +2,7 @@
   "package": {
     "dependencies": {
       "@strapi/plugin-graphql": "latest",
-      "@_sh/strapi-plugin-ckeditor": "latest",
-      "@exfabrica/strapi-plugin-awesome-help": "latest"
+      "@_sh/strapi-plugin-ckeditor": "latest"
     }
   }
 }
